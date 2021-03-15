@@ -381,9 +381,10 @@ font-size: 18px;
 }
 
 .projects-product{
-
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
 .projects-product__card{
     margin-bottom: 30px;
@@ -675,7 +676,7 @@ padding-bottom: 80px;
 }
 
 .posts-title{
-    font-family: "Raleway";
+    font-family: "Raleway Regular";
     font-size: 30px;
     text-align: center;
     padding-bottom: 30px;
